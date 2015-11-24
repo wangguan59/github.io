@@ -1,0 +1,258 @@
+/********General Styling********/
+body {
+    color: #4d4b4c;
+    font-family: 'Open Sans Condensed', sans-serif;
+}    
+a {
+    color: #666;
+}
+h3 {
+    color: #666;
+}
+h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.25em;
+    font-style: oblique;
+    margin: -4px 10px 0px 10px;
+    background-color: #4d4b4c;
+    line-height: 30pt;
+}
+.table2 td{
+    color: #4d4b4c;
+    font-size: 1.5em;
+    border: 2px dashed #afb9a9;
+    background-color: #d3dfc9;
+    line-height: 22px;
+}
+.centered {
+    text-align: center;
+}
+.offset {
+    margin-top: 25px;
+    margin-left: 100px;;
+}
+.whowearedescription {
+	background-color: #4d4b4c;
+	height: 250px;
+	width: 280px;
+	margin-left: 35px;
+	margin-top: -3px;
+}
+.whowearedescription p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.whowearedescription h4 {
+    text-align: top;
+    text-align: center;
+    color: #fff;
+    font-size: 1.50em;
+    font-style: oblique;
+    margin: 10px 10px 5px 15px;
+}
+.whowearedescription p{
+    color:  #fff;
+    margin: 2px 10px 5px 15px;
+}
+.whowearedescription span
+{
+	color:  #007f88;
+	text-align: bottom;
+	font-weight: bold;
+	margin: 2px 10px 10px 180px;
+	font-size: 1.30em;
+}
+/******Header Styling*****/
+.banner {
+    margin-top: 79px;
+    margin-right: 12px;
+    float: right;
+}
+.ImageContainer {
+    margin-bottom:10px;
+    margin-left:15px;
+}
+.logo {
+    margin: 0 0 0 20px
+}
+.ImageContainer a:hover{
+  opacity: 0.5;   
+}
+/*******Nav Styling*******/
+.nav-tabs li{
+    text-align: center;
+    width: 198px;
+    font-size: 1.5em;
+    font-style: oblique;
+    border-color: #fff;
+}
+.nav {
+    margin-left: 330px;
+}
+/************Content Styling*****/
+.heading {
+    margin: 10px 20px;
+    font-size: 1.75em;
+    font-style: oblique;
+}
+.heading2 {
+    margin: -20px 20px 0 20px;
+    font-size: 1.75em;
+    font-style: oblique;
+}
+.imgmargin {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imgmargin2 {
+    margin-left: 10px;
+}
+.table {
+    margin-left: 10px;
+    background-color: #d3dfc9;
+}
+.table td{
+    color: #4d4b4c;
+    font-size: 1.25em;
+    border-top: 2px dashed #d3dfc9;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px dashed #c1ccbb;
+}
+/******* Second Layer ******/
+hr{
+background-color: #d3dfc9;
+height: 3px;
+width: 97%;
+margin-top: 1px; 
+}
+.opaque a{
+    opacity: 0.3;
+}
+.imgmargin3 {
+    margin-left: 15px;
+}
+.imgmargin10 {
+    margin-left: 5px;
+}
+.description{
+	background-color: #4d4b4c;
+	height: 125px;
+	width: 280px;
+	margin-left: 35px;
+	margin-top: -3px;
+}
+.description2{
+	background-color: #4d4b4c;
+	height: 100px;
+	width: 280px;
+	margin-left: 40px;
+	margin-top: -3px;
+}
+.description p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.description h4 {
+    text-align: top;
+    text-align: center;
+    color: #fff;
+    font-size: 1.50em;
+    font-style: oblique;
+    margin: 10px 10px 5px 15px;
+}
+.description p{
+	color:  #fff;
+	text-align:justify;
+	margin: 2px 10px 5px 15px;
+}
+.description span
+{
+	color:  #007f88;
+	text-align: bottom;
+	font-weight: bold;
+	margin: 2px 10px 10px 180px;
+	font-size: 1.30em;
+}
+
+.description a:hover{
+color: white;
+}
+.contentbuffer {
+    margin-bottom: 10px
+}
+/******* Third Layer ******/
+
+.hr2{
+	margin-left: 40px;
+}
+.path
+{
+	color:	#007f88;
+	font-size: 1.20em;
+	margin-left: 40px;
+	font-style: italic;
+}
+
+.path a:hover
+{
+	color: #007f88;
+}
+
+.title{
+	margin-top: -20px;
+	margin-left: 20px;
+}
+
+.imgmargin4{
+	margin-left: 20px;
+}
+.imgmargin5{
+	margin-left: 2px;
+}
+
+.thirdleveldescription {
+	margin-left:10px;
+}
+.tablep{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.thirdleveldescription p{
+	margin-left: 10px;
+	font-size: 1.30em;
+	text-align: left;
+}
+
+.say {
+	margin-left: 20px;
+}
+
+.map td{
+	border-left: 3px solid #d3dfc9; 
+	padding: 5px;
+	font-size: 1.30em;
+}
+.map {
+    margin-top: -20px;
+}
+
+/******* Footer Styling ******/
+#footer {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    background-color: #007f88;
+}
+#footer a{
+    color: white;
+}
+#footer a:hover{
+    color: black;
+}
+#footer ul{
+    color: #fff;
+}
+#footer ul li{
+    margin: 15px 10px 10px 0px;
+    display: block;
+    float: left;
+}
