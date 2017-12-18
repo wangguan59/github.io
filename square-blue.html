@@ -7,8 +7,8 @@
 <style>
 .cssload-square {
 	margin: 1px 1px 0px 15px;
-	width: 14px;
-	height: 14px;
+	width: 13px;
+	height: 13px;
 	transform: rotate(-45deg);
 		-o-transform: rotate(-45deg);
 		-ms-transform: rotate(-45deg);
@@ -18,8 +18,8 @@
 
 .cssload-square-part {
 	position: absolute;
-	width: 14px;
-	height: 14px;
+	width: 13px;
+	height: 13px;
 	z-index: 1;
 	animation: cssload-part-anim 0.92s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
 		-o-animation: cssload-part-anim 0.92s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
@@ -46,7 +46,7 @@
 }
 
 .cssload-square-blend {
-	background: rgb(109,136,172);
+	background: rgba(109,136,172,0.97);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -136,46 +136,46 @@
 
 @keyframes cssload-part-anim {
 	0% {
-		transform: translate3d(-10px, -10px, 0);
+		transform: translate3d(-6px, -6px, 0);
 	}
 	100% {
-		transform: translate3d(10px, 10px, 0);
+		transform: translate3d(6px, 6px, 0);
 	}
 }
 
 @-o-keyframes cssload-part-anim {
 	0% {
-		-o-transform: translate3d(-10px, -10px, 0);
+		-o-transform: translate3d(-6px, -6px, 0);
 	}
 	100% {
-		-o-transform: translate3d(10px, 10px, 0);
+		-o-transform: translate3d(6px, 6px, 0);
 	}
 }
 
 @-ms-keyframes cssload-part-anim {
 	0% {
-		-ms-transform: translate3d(-10px, -10px, 0);
+		-ms-transform: translate3d(-6px, -6px, 0);
 	}
 	100% {
-		-ms-transform: translate3d(10px, 10px, 0);
+		-ms-transform: translate3d(6px, 6px, 0);
 	}
 }
 
 @-webkit-keyframes cssload-part-anim {
 	0% {
-		-webkit-transform: translate3d(-10px, -10px, 0);
+		-webkit-transform: translate3d(-6px, -6px, 0);
 	}
 	100% {
-		-webkit-transform: translate3d(10px, 10px, 0);
+		-webkit-transform: translate3d(6px, 6px, 0);
 	}
 }
 
 @-moz-keyframes cssload-part-anim {
 	0% {
-		-moz-transform: translate3d(-10px, -10px, 0);
+		-moz-transform: translate3d(-6px, -6px, 0);
 	}
 	100% {
-		-moz-transform: translate3d(10px, 10px, 0);
+		-moz-transform: translate3d(6px, 6px, 0);
 	}
 }
 </style>
